@@ -1,0 +1,12 @@
+{
+	"name": "navigatorOverride",
+	"version": "1.0.0",
+	"description": "Overrides navigator variable",
+	"manifest_version": 2,
+	"content_scripts": [
+		{
+			"matches": ["*://*/*"],
+			"js": ["asset/jquery-3.5.1.min.js", "content.js"]
+		}
+	]
+}
